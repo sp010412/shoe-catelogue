@@ -143,14 +143,30 @@ function catalogue() {
     ]
 
 
-function check() {
-return shoes;
-}
+    function shoeList() {
+        return shoes;
+    }
+
+    // //finding a item on a list 
+    // function findItems(outputOne, outputTwo) {
+    //     // for (var i = 0; i < shoes.length; i++) {
+    //     var list = shoes;
+    //     let filteredList = list.filter(function (one, two) {
+    //         return Number(one.size.includes(outputOne))
+    //             && Number(one.size.includes(outputTwo))
+    //             && Number(two.price.includes(outputOne))
+    //             && Number(two.price.includes(outputThree))
+    //         // });
+    //     })
+    //     return filteredList;
+    // }
+
 
 
 
 
     return {
-check,
+        shoeList,
+        findItems,
     }
 }
